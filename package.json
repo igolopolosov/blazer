@@ -1,0 +1,22 @@
+{
+  "name": "blazer",
+  "version": "0.0.1",
+  "description": "bdd framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usehotkey/blazer.git"
+  },
+  "keywords": [
+    "bdd"
+  ],
+  "author": "igolopolosov@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usehotkey/blazer/issues"
+  },
+  "homepage": "https://github.com/usehotkey/blazer#readme"
+}
