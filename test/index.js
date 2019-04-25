@@ -1,3 +1,8 @@
-const { Feature } = require('../src');
+const { Feature, Scenario } = require('../src');
 
-Feature(123);
+Feature('Blog', () => {
+    Scenario('When user enters the blog page it show all available blog posts', () => {
+        const a = 1;
+        console.log(a);
+    });
+});
