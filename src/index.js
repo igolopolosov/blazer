@@ -1,10 +1,11 @@
+const getBlock = (blockName, newline = false) => (text, func) => {
+    if (newline) console.log();
+    console.log(blockName + ':', text);
+    func();
+};
+
 module.exports = {
-    Feature: (text, func) => {
-        console.log('Feature:', text);
-        func();
-    },
-    Scenario: (text, func) => {
-        console.log('Scenario:', text);
-        func();
-    }
+    Feature: getBlock('Feature', true),
+    Scenario: getBlock('Scenario'),
+    Example: getBlock('Example'),
 };
